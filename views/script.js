@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api/expenses';
+const API_URL = 'https://controle-de-gastos-hnqr.onrender.com/api/expenses';
 
 document.getElementById('expenseForm').addEventListener('submit', async (e) => {
     e.preventDefault();
