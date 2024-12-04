@@ -1,0 +1,70 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c2bbc1ab;
+  color: #000000;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #091edd;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid 
+  #3ec8eb;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #666363;
+  box-shadow: 0 0 5px rgba(120, 102, 182, 0.5);
+}
+
+button {
+  background-color: #388edf;
+  color: rgb(27, 29, 31);
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3ec8eb;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6ad6e9;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
